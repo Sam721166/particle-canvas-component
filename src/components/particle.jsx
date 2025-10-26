@@ -1,8 +1,10 @@
 import React from 'react'
+import { Analytics } from "@vercel/analytics/next"
 
 function Particle() {
   return (
     <div className='h-screen w-full bg-white flex mt-15 justify-center'>
+        <Analytics/>
         <div className='w-115 h-110  p-5'>
             <h1 className='text-4xl font-playfair italic'>Hey,</h1>
 
